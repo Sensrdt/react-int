@@ -29,8 +29,8 @@ function App() {
       {/* <Throttle/> */}
       {/* <TodoInput/>
       <TodoList/> */}
-      <Pagination/>
-      <CatelogList/>
+      {/* <Pagination/>
+      <CatelogList/> */}
     </>
   )
 }

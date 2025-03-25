@@ -1,0 +1,21 @@
+.itemList {
+    border-bottom: .5px solid aliceblue;
+    padding: 2px;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+.highlight {
+    font-weight: bold;
+    color: rgb(34, 245, 221);
+}
+
+
+.list {
+    margin-top: 10px;
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;  /* Enables vertical scrolling */
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 10px 10px rgba(121, 119, 119, 0.431);
+}

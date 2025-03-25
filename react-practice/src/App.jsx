@@ -11,7 +11,6 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Default redirect from "/" to "/dashboard" */}
         <Route path="/" element={<Navigate to="/landing" />} />
 
         {/* Correct dynamic route */}
@@ -21,7 +20,6 @@ const App = () => {
 
         <Route path="/landing" element={<Landing/>} />
 
-        {/* Fallback for unmatched routes */}
         <Route path="*" element={<h2>404 - Page Not Found</h2>} />
       </Routes>
     </Router>
