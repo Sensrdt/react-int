@@ -19,3 +19,8 @@
     padding: 10px;
     box-shadow: 10px 10px rgba(121, 119, 119, 0.431);
 }
+
+.key_highlight {
+    font-weight: bold;
+    color: rgb(34, 245, 221);
+}

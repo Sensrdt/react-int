@@ -52,7 +52,7 @@ export default function Autocomplete() {
 
   return (
     <div>
-        <input style={{height: "20px"}} placeholder='Enter value to search' value={input} onChange={(e) => handleOnChange(e)} />
+        <input style={{height: "50px", width: "100%", fontSize: "20px"}} placeholder='Enter value to search' value={input} onChange={(e) => handleOnChange(e)} />
         {
             loading ? <p>Loading...</p> : <Suggestions listOfItems={apiResult} searchItem={input}/>
         }

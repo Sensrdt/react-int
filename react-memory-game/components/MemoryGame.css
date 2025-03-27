@@ -1,0 +1,53 @@
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid white;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.back,
+.front {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .back {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+
+/* When game starts, flip the card to show the front */
+.card.flipped {
+    transform: rotateY(180deg);
+}
