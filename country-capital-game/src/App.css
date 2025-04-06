@@ -1,0 +1,15 @@
+.button {
+  border-color: rgb(208, 205, 205);
+}
+
+.selected {
+    border-color: blue;
+}
+
+.wrong {
+    border-color: red;
+}
+
+.correct {
+    border-color: green;
+}
